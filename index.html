@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProjektMachen2026 — machen!-Wettbewerb 2026</title>
+  <meta name="description" content="48 Ideen für Eisenach — machen!-Wettbewerb 2026, NextGen engagiert">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Background Effects -->
+  <div class="gradient-mesh">
+    <div class="gradient-orb"></div>
+    <div class="gradient-orb"></div>
+    <div class="gradient-orb"></div>
+  </div>
+  <div class="particles" id="particles"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">PM2026</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#prozess">Prozess</a></li>
+        <li><a href="#workshops">Workshops</a></li>
+        <li><a href="#ideen">Ideen</a></li>
+        <li><a href="#top10">Top 10</a></li>
+        <li><a href="#verworfen">Verworfen</a></li>
+        <li><a href="#naechste">Nächste Schritte</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==================== HERO ==================== -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <h1 class="hero-title reveal">ProjektMachen2026</h1>
+    <p class="hero-subtitle reveal reveal-delay-1">
+      <span>machen!-Wettbewerb 2026</span> &nbsp;|&nbsp; NextGen engagiert &nbsp;|&nbsp; Eisenach, Thüringen
+    </p>
+    <div class="hero-counters reveal reveal-delay-2">
+      <div class="counter-item">
+        <span class="counter-number" data-target="48">0</span>
+        <span class="counter-label">Ideen</span>
+      </div>
+      <div class="counter-item">
+        <span class="counter-number" data-target="5">0</span>
+        <span class="counter-label">Workshops</span>
+      </div>
+      <div class="counter-item">
+        <span class="counter-number" data-target="28">0</span>
+        <span class="counter-label">Tasks erledigt</span>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+    </div>
+  </section>
+
+  <!-- ==================== PROZESS ==================== -->
+  <section id="prozess" class="section">
+    <span class="section-label reveal">Der Prozess</span>
+    <h2 class="section-title reveal">Wie wir zu <span class="text-gradient">48 Ideen</span> kamen</h2>
+    <p class="section-subtitle reveal">Ein strukturierter Prozess aus Recherche, Kontextanalyse, kreativer Ideation und systematischer Bewertung.</p>
+
+    <div class="process-timeline" id="processTimeline">
+      <!-- Phase 1: Recherche -->
+      <div class="process-phase reveal">
+        <div class="process-phase-dot">🔍</div>
+        <div class="process-phase-header">
+          <span class="process-phase-title">Phase 1: Recherche</span>
+          <span class="process-phase-badge" style="background:rgba(99,102,241,0.15);color:#818cf8;">15 Tasks</span>
+        </div>
+        <p class="process-phase-desc">Fundamentale Analyse der Ausgangslage — Gewinner, Iststand, Konkurrenz und Vereins-Strategie.</p>
+        <div class="process-tasks">
+          <span class="process-task-tag"><span class="check">✓</span> Gewinner-Analyse</span>
+          <span class="process-task-tag"><span class="check">✓</span> Eisenach-Iststand</span>
+          <span class="process-task-tag"><span class="check">✓</span> Konkurrenz-Analyse</span>
+          <span class="process-task-tag"><span class="check">✓</span> Verein-Strategie</span>
+        </div>
+        <div class="process-progress">
+          <div class="progress-bar"><div class="progress-bar-fill" data-width="100"></div></div>
+          <span class="progress-text">15/15 ✓</span>
+        </div>
+      </div>
+
+      <!-- Phase 2A: Context -->
+      <div class="process-phase reveal">
+        <div class="process-phase-dot">🧭</div>
+        <div class="process-phase-header">
+          <span class="process-phase-title">Phase 2A: Kontext</span>
+          <span class="process-phase-badge" style="background:rgba(16,185,129,0.15);color:#10b981;">6 Tasks</span>
+        </div>
+        <p class="process-phase-desc">Potenziale, Trends, internationale Projekte und Jugendwünsche als Ideations-Basis.</p>
+        <div class="process-tasks">
+          <span class="process-task-tag"><span class="check">✓</span> Potenziale</span>
+          <span class="process-task-tag"><span class="check">✓</span> Trends</span>
+          <span class="process-task-tag"><span class="check">✓</span> Intl. Projekte</span>
+          <span class="process-task-tag"><span class="check">✓</span> Jugendwünsche</span>
+        </div>
+        <div class="process-progress">
+          <div class="progress-bar"><div class="progress-bar-fill" data-width="100"></div></div>
+          <span class="progress-text">6/6 ✓</span>
+        </div>
+      </div>
+
+      <!-- Phase 2B: Ideation -->
+      <div class="process-phase reveal">
+        <div class="process-phase-dot">💡</div>
+        <div class="process-phase-header">
+          <span class="process-phase-title">Phase 2B: Ideation</span>
+          <span class="process-phase-badge" style="background:rgba(236,72,153,0.15);color:#ec4899;">5 Workshops</span>
+        </div>
+        <p class="process-phase-desc">5 kreative Workshops mit unterschiedlichen Methoden — von Wild Ideas bis Audience Shift.</p>
+        <div class="process-tasks">
+          <span class="process-task-tag"><span class="check">✓</span> Wild Ideas</span>
+          <span class="process-task-tag"><span class="check">✓</span> Local Paradox</span>
+          <span class="process-task-tag"><span class="check">✓</span> Problem-First</span>
+          <span class="process-task-tag"><span class="check">✓</span> Blend Method</span>
+          <span class="process-task-tag"><span class="check">✓</span> Audience Shift</span>
+        </div>
+        <div class="process-progress">
+          <div class="progress-bar"><div class="progress-bar-fill" data-width="100"></div></div>
+          <span class="progress-text">5/5 ✓</span>
+        </div>
+      </div>
+
+      <!-- Phase 2C: Bewertung -->
+      <div class="process-phase reveal">
+        <div class="process-phase-dot">📊</div>
+        <div class="process-phase-header">
+          <span class="process-phase-title">Phase 2C: Bewertung</span>
+          <span class="process-phase-badge" style="background:rgba(245,158,11,0.15);color:#f59e0b;">2 Tasks</span>
+        </div>
+        <p class="process-phase-desc">Systematische Bewertung nach 7 Kriterien und Lokalbezug-Check — die besten Ideen steigen auf.</p>
+        <div class="process-tasks">
+          <span class="process-task-tag"><span class="check">✓</span> Kriterien-Check (7 Kriterien × 3 Punkte)</span>
+          <span class="process-task-tag"><span class="check">✓</span> Lokalbezug-Check (⭐ 1-3)</span>
+        </div>
+        <div class="process-progress">
+          <div class="progress-bar"><div class="progress-bar-fill" data-width="100"></div></div>
+          <span class="progress-text">2/2 ✓</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== WORKSHOPS ==================== -->
+  <section id="workshops" class="section">
+    <span class="section-label reveal">Workshops</span>
+    <h2 class="section-title reveal">5 Methoden, <span class="text-gradient">5 Perspektiven</span></h2>
+    <p class="section-subtitle reveal">Jeder Workshop nutzt eine andere Kreativ-Technik — für maximale Ideenvielfalt.</p>
+    <div class="workshop-grid" id="workshopGrid">
+      <!-- Filled by JS -->
+    </div>
+  </section>
+
+  <!-- ==================== ALLE 48 IDEEN ==================== -->
+  <section id="ideen" class="section">
+    <span class="section-label reveal">Alle Ideen</span>
+    <h2 class="section-title reveal"><span class="text-gradient">48 Ideen</span> für Eisenach</h2>
+    <p class="section-subtitle reveal">Jede Idee bewertet nach 7 Kriterien (max. 21 Punkte) und Lokalbezug (⭐ 1-3).</p>
+
+    <div class="filter-bar reveal" id="filterBar">
+      <div class="filter-group">
+        <span class="filter-group-label">Workshop:</span>
+        <button class="filter-btn active" data-filter-workshop="all">Alle</button>
+        <button class="filter-btn" data-filter-workshop="wi">Wild Ideas</button>
+        <button class="filter-btn" data-filter-workshop="lp">Local Paradox</button>
+        <button class="filter-btn" data-filter-workshop="pf">Problem-First</button>
+        <button class="filter-btn" data-filter-workshop="bm">Blend Method</button>
+        <button class="filter-btn" data-filter-workshop="as">Audience Shift</button>
+      </div>
+      <div class="filter-group">
+        <span class="filter-group-label">Status:</span>
+        <button class="filter-btn active" data-filter-status="all">Alle</button>
+        <button class="filter-btn" data-filter-status="top10">Top 10</button>
+        <button class="filter-btn" data-filter-status="top15">Top 15</button>
+        <button class="filter-btn" data-filter-status="unterschaetzt">Unterschätzt</button>
+        <button class="filter-btn" data-filter-status="papertiger">Papiertiger</button>
+        <button class="filter-btn" data-filter-status="verworfen">Verworfen</button>
+      </div>
+      <div class="filter-group">
+        <span class="filter-group-label">Sortierung:</span>
+        <select class="sort-select" id="sortSelect">
+          <option value="kriterien_desc">Kriterien-Score ↓</option>
+          <option value="kriterien_asc">Kriterien-Score ↑</option>
+          <option value="lokalbezug_desc">Lokalbezug ↓</option>
+          <option value="lokalbezug_asc">Lokalbezug ↑</option>
+          <option value="id_asc">ID ↑</option>
+          <option value="id_desc">ID ↓</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="ideas-count-display" id="ideasCount"></div>
+
+    <div class="ideas-grid" id="ideasGrid">
+      <!-- Filled by JS -->
+    </div>
+  </section>
+
+  <!-- ==================== TOP 10 ==================== -->
+  <section id="top10" class="section">
+    <span class="section-label reveal">🏆 Die Besten</span>
+    <h2 class="section-title reveal">Top <span class="text-gradient">10</span> Ideen</h2>
+    <p class="section-subtitle reveal">Die zehn stärksten Ideen — ausgewählt nach Kriterien-Score und Lokalbezug.</p>
+    <div class="top10-grid" id="top10Grid">
+      <!-- Filled by JS -->
+    </div>
+  </section>
+
+  <!-- ==================== VERWORFENE IDEEN ==================== -->
+  <section id="verworfen" class="section">
+    <span class="section-label reveal">Verworfen</span>
+    <h2 class="section-title reveal">Verworfene <span class="text-gradient">Ideen</span></h2>
+    <p class="section-subtitle reveal">Diese Ideen wurden nach Bewertung verworfen — aber sie zeigen die Breite unseres Denkens.</p>
+    <div class="verworfen-grid" id="verworfenGrid">
+      <!-- Filled by JS -->
+    </div>
+  </section>
+
+  <!-- ==================== NÄCHSTE SCHRITTE ==================== -->
+  <section id="naechste" class="section">
+    <span class="section-label reveal">Nächste Schritte</span>
+    <h2 class="section-title reveal">Was jetzt <span class="text-gradient">zählt</span></h2>
+    <p class="section-subtitle reveal">Drei Schritte bis zum Antrag — die Deadline rückt näher.</p>
+
+    <div class="steps-grid">
+      <div class="step-card reveal">
+        <div class="step-number">1</div>
+        <h3 class="step-title">Finale Favoriten wählen</h3>
+        <p class="step-desc">Top 10 → 2-3 Finale Favoriten auswählen, die den Antrag tragen.</p>
+      </div>
+      <div class="step-card reveal reveal-delay-1">
+        <div class="step-number">2</div>
+        <h3 class="step-title">Kooperations-Verein finden</h3>
+        <p class="step-desc">Einen Verein als Träger organisieren — erforderlich für die Antragstellung.</p>
+      </div>
+      <div class="step-card reveal reveal-delay-2">
+        <div class="step-number">3</div>
+        <h3 class="step-title">Antrag schreiben</h3>
+        <p class="step-desc">Bis zum 5. Mai 2026 muss der Antrag beim machen!-Wettbewerb eingereicht sein.</p>
+      </div>
+    </div>
+
+    <div class="countdown-container reveal" id="countdownContainer">
+      <h3 class="countdown-title">⏰ Deadline-Countdown</h3>
+      <p class="countdown-deadline">5. Mai 2026 — machen!-Wettbewerb 2026</p>
+      <div class="countdown-timer" id="countdownTimer">
+        <div class="countdown-unit">
+          <span class="countdown-value" id="cdDays">--</span>
+          <span class="countdown-label">Tage</span>
+        </div>
+        <div class="countdown-unit">
+          <span class="countdown-value" id="cdHours">--</span>
+          <span class="countdown-label">Stunden</span>
+        </div>
+        <div class="countdown-unit">
+          <span class="countdown-value" id="cdMinutes">--</span>
+          <span class="countdown-label">Minuten</span>
+        </div>
+        <div class="countdown-unit">
+          <span class="countdown-value" id="cdSeconds">--</span>
+          <span class="countdown-label">Sekunden</span>
+        </div>
+      </div>
+      <a href="#top10" class="countdown-cta">Jetzt Top 10 ansehen →</a>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer>
+    <div><span class="footer-brand">ProjektMachen2026</span> | machen!-Wettbewerb 2026 | NextGen engagiert | Eisenach, Thüringen</div>
+    <div class="footer-credit">Erstellt mit 🔥 von Jeremy AI Agent</div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
